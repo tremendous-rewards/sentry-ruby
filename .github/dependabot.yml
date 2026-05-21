@@ -3,6 +3,8 @@ updates:
   - package-ecosystem: "bundler"
     schedule:
       interval: "daily"
+    cooldown:
+      default-days: 7
     allow:
       - dependency-type: "direct"
     directories:
